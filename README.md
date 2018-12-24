@@ -1,37 +1,66 @@
-## Welcome to GitHub Pages
+<!doctype html>
 
-You can use the [editor on GitHub](https://github.com/emersom32/Blog/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+<html lang="pt_br">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<head>
+		<title>TecBlog - O seu Blog de tecnologia</title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="css/estilo.css" />
 
-### Markdown
+	</head>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+	<body>
 
-```markdown
-Syntax highlighted code block
+		<div id="navegacao">
+			<div id="area">
+				<h1 id="logo"><span class="verde">Tec</span>Blog</h1>
+				<div id="menu">
+					<a href="index.html">home</a>
+					<a href="games.html">games</a>
+					<a href="apps.html">apps</a>
+					<a href="eletronicos.html">eletrônicos</a>
+				</div>
+			</div>
+		</div>
 
-# Header 1
-## Header 2
-### Header 3
+		<div id="area-principal">
+			
+			<div id="postagem">
+				<h2>Titulo da postagem </h2>
+				<span class="data-postagem">postado em 12 março 2015</span>
+				<img class="img-postagem" src="img/imagem1.png">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula, commodo dui in, commodo ante. Nulla egestas varius ipsum, lacinia consequat arcu iaculis vitae. Mauris fermentum at dui aliquet tempor. Duis tempus, nunc non ultricies pulvinar, velit risus dapibus ipsum, quis blandit lorem elit nec felis. Fusce sollicitudin gravida est. Curabitur feugiat porttitor neque, et laoreet ligula tincidunt eget. Nulla quis urna eget turpis ullamcorper vestibulum. Mauris porta vitae erat quis scelerisque.
+				</p>
 
-- Bulleted
-- List
+				<span class="postado">Postado por Jamilton Damasceno</span>
+			</div>
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
+			<div id="postagem">
+				<h2>Titulo da postagem 2</h2>
+				<span class="data-postagem">postado em 20 março 2017</span>
+				<img class="img-postagem" src="img/imagem1.png">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula, commodo dui in, commodo ante. Nulla egestas varius ipsum, lacinia consequat arcu iaculis vitae. Mauris fermentum at dui aliquet tempor. Duis tempus, nunc non ultricies pulvinar, velit risus dapibus ipsum, quis blandit lorem elit nec felis. Fusce sollicitudin gravida est. Curabitur feugiat porttitor neque, et laoreet ligula tincidunt eget. Nulla quis urna eget turpis ullamcorper vestibulum. Mauris porta vitae erat quis scelerisque.
+				</p>
 
-[Link](url) and ![Image](src)
-```
+				<span class="postado">Postado por Jamilton Damasceno</span>
+			</div>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+			<div id="postagem">
+				<h2>Titulo da postagem 2</h2>
+				<span class="data-postagem">postado em 20 março 2017</span>
+				<img class="img-postagem" src="img/imagem1.png">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc et scelerisque quam. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent nulla turpis, gravida at nunc eu, luctus aliquam justo. Praesent eget risus vehicula, commodo dui in, commodo ante. Nulla egestas varius ipsum, lacinia consequat arcu iaculis vitae. Mauris fermentum at dui aliquet tempor. Duis tempus, nunc non ultricies pulvinar, velit risus dapibus ipsum, quis blandit lorem elit nec felis. Fusce sollicitudin gravida est. Curabitur feugiat porttitor neque, et laoreet ligula tincidunt eget. Nulla quis urna eget turpis ullamcorper vestibulum. Mauris porta vitae erat quis scelerisque.
+				</p>
 
-### Jekyll Themes
+				<span class="postado">Postado por Jamilton Damasceno</span>
+			</div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/emersom32/Blog/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+		</div>
 
-### Support or Contact
+	</body>
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+</html>
